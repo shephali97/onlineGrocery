@@ -1,56 +1,48 @@
 <html>
-<head></head>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
 <body>
 <!--footer-->
 <div class="footer">
 	<div class="container">
 		<div class="col-md-3 footer-grid">
-			<h3>About Us</h3>
-			<p>Nam libero tempore, cum soluta nobis est eligendi 
-				optio cumque nihil impedit quo minus id quod maxime 
-				placeat facere possimus.</p>
-		</div>
-		<div class="col-md-3 footer-grid ">
-			<h3>Menu</h3>
+			<h3>SHEZ KHAMP</h3>
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="kitchen.html">Kitchen</a></li>
-				<li><a href="care.html">Personal Care</a></li>
-				<li><a href="hold.html">Household</a></li>						 
-				<li><a href="codes.html">Short Codes</a></li> 
-				<li><a href="contact.html">Contact</a></li>
+			<li><a>About us</a></li>
+			<li><a>Terms and conditions</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grid ">
-			<h3>Customer Services</h3>
+			<h3>HELP</h3>
 			<ul>
-				<li><a href="shipping.html">Shipping</a></li>
-				<li><a href="terms.html">Terms & Conditions</a></li>
-				<li><a href="faqs.html">Faqs</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="offer.html">Online Shopping</a></li>						 
+			<li><a>FAQ'S</a></li>
+			<li><a href="contactus.php">contact us</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 footer-grid ">
+			<h3>Get social with us</h3>
+			<ul>
+			<li><a href="https://www.facebook.com/" class="fa fa-facebook" style="background-color:white; font-size:40px"></a></li>
+			<li><a href="https://www.instagram.com/" class="fa fa-instagram" style="background-color:white; font-size:40px"></a></li>
+            <li><a href="https://twitter.com/" class="fa fa-twitter" style="background-color:white; font-size:40px"></a></li>						 
 				 
 			</ul>
 		</div>
+
 		<div class="col-md-3 footer-grid">
-			<h3>My Account</h3>
+			<h3>Payment modes</h3>
 			<ul>
-				<li><a href="login.html">Login</a></li>
-				<li><a href="register.html">Register</a></li>
-				<li><a href="wishlist.html">Wishlist</a></li>
+				<li>cash on delivery</li>
+				<li>paytm</li>
+				<li>credit/debit card</li>
 				
 			</ul>
 		</div>
 		<div class="clearfix"></div>
 			<div class="footer-bottom">
-				<h2 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>
-				<p class="fo-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
-				<ul class="social-fo">
-					<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-					<li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-					<li><a href="#" class=" pin"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
-					<li><a href="#" class=" dri"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-				</ul>
+				<h2 ><a href="index.html"><b>s<br>H<br>E<br>z</b>khamp<span>Best online grocery shop</span></a></h2>
+				
+				
 				<div class=" address">
 					<div class="col-md-4 fo-grid1">
 							<p><i class="fa fa-home" aria-hidden="true"></i>12K Street , 45 Building Road Canada.</p>
@@ -65,9 +57,7 @@
 					
 					</div>
 			</div>
-		<div class="copy-right">
-			<p> &copy; 2016 Big store. All Rights Reserved | Design by  <a href="http://w3layouts.com/"> W3layouts</a></p>
-		</div>
+		
 	</div>
 </div>
 <!-- //footer-->
