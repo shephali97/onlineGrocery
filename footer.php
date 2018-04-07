@@ -1,48 +1,61 @@
-<html>
-<head>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></head>
+<htm>
+<head></head>
+
+<body>
+
 <body>
 <!--footer-->
 <div class="footer">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="col-md-3 footer-grid">
-			<h3>SHEZ KHAMP</h3>
+			<h3>About Us</h3>
+			<p>We provide the best functionality of buying grocery items online. Primary objective of this site is to facilitate the customer through online shopping so that customer will save a lot of time..</p>
+		</div>
+		<div class="col-md-3 footer-grid ">
+			<h3>Menu</h3>
 			<ul>
-			<li><a>About us</a></li>
-			<li><a>Terms and conditions</a></li>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="">Cooking Essentials</a></li>
+				<li><a href="">Packaged Foods</a></li>
+				<li><a href="">Snacks</a></li>						 
+				<li><a href="">Beverages</a></li> 
+				<li><a href="">Household Supplies</a></li>
+	            <li><a href="">Haircare, Bath & Body</a></li>
+	            <li><a href="">Skincare & Make-up</a></li>
+				<li><a href="">Diapers, Baby Care & Food</a></li>
+				
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grid ">
-			<h3>HELP</h3>
+			<h3>Customer Services</h3>
 			<ul>
-			<li><a>FAQ'S</a></li>
-			<li><a href="contactus.php">contact us</a></li>
-			</ul>
-		</div>
-		<div class="col-md-3 footer-grid ">
-			<h3>Get social with us</h3>
-			<ul>
-			<li><a href="https://www.facebook.com/" class="fa fa-facebook" style="background-color:white; font-size:40px"></a></li>
-			<li><a href="https://www.instagram.com/" class="fa fa-instagram" style="background-color:white; font-size:40px"></a></li>
-            <li><a href="https://twitter.com/" class="fa fa-twitter" style="background-color:white; font-size:40px"></a></li>						 
+	
+				<li><a href="">Terms & Conditions</a></li>
+				<li><a href="">Faqs</a></li>
+				<li><a href="contactus.php">Contact Us</a></li>
+										 
 				 
 			</ul>
 		</div>
-
 		<div class="col-md-3 footer-grid">
-			<h3>Payment modes</h3>
+			<h3>Payment Mode</h3>
 			<ul>
-				<li>cash on delivery</li>
-				<li>paytm</li>
-				<li>credit/debit card</li>
+			    <li><img src="images/paytm.png"  width="50px">  <a href="">Paytm</a></li><br>
+				<li><img src="images/coddee.png" width="60px" height="40px" ><a href="" > Cash On Delivery</a></li><br>
+				<li><img src="images/debitcard.png" width="50px" height="40px"><a href="" >Debit/credit card</a></li>
+				
 				
 			</ul>
 		</div>
 		<div class="clearfix"></div>
 			<div class="footer-bottom">
-				<h2 ><a href="index.html"><b>s<br>H<br>E<br>z</b>khamp<span>Best online grocery shop</span></a></h2>
-				
-				
+				<h2 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>
+				<p class="fo-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+				<ul class="social-fo">
+					<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#" class=" twi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#" class=" pin"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				</ul>
 				<div class=" address">
 					<div class="col-md-4 fo-grid1">
 							<p><i class="fa fa-home" aria-hidden="true"></i>12K Street , 45 Building Road Canada.</p>
@@ -57,69 +70,11 @@
 					
 					</div>
 			</div>
-		
+		<div class="copy-right">
+			<p> &copy; 2016 Big store. All Rights Reserved</a></p>
+		</div>
 	</div>
 </div>
-<!-- //footer-->
-<!-- smooth scrolling -->
-	<script type="text/javascript">
-		$(document).ready(function() {
-		/*
-			var defaults = {
-			containerID: 'toTop', // fading element id
-			containerHoverID: 'toTopHover', // fading element hover id
-			scrollSpeed: 1200,
-			easingType: 'linear' 
-			};
-		*/								
-		$().UItoTop({ easingType: 'easeOutQuart' });
-		});
-	</script>
-	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-<!-- //smooth scrolling -->
-<!-- for bootstrap working -->
-		<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-<script type='text/javascript' src="js/jquery.mycart.js"></script>
-  <script type="text/javascript">
-  $(function () {
-
-    var goToCartIcon = function($addTocartBtn){
-      var $cartIcon = $(".my-cart-icon");
-      var $image = $('<img width="30px" height="30px" src="' + $addTocartBtn.data("image") + '"/>').css({"position": "fixed", "z-index": "999"});
-      $addTocartBtn.prepend($image);
-      var position = $cartIcon.position();
-      $image.animate({
-        top: position.top,
-        left: position.left
-      }, 500 , "linear", function() {
-        $image.remove();
-      });
-    }
-
-    $('.my-cart-btn').myCart({
-      classCartIcon: 'my-cart-icon',
-      classCartBadge: 'my-cart-badge',
-      affixCartIcon: true,
-      checkoutCart: function(products) {
-        $.each(products, function(){
-          console.log(this);
-        });
-      },
-      clickOnAddToCart: function($addTocart){
-        goToCartIcon($addTocart);
-      },
-      getDiscountPrice: function(products) {
-        var total = 0;
-        $.each(products, function(){
-          total += this.quantity * this.price;
-        });
-        return total * 1;
-      }
-    });
-
-  });
-  </script>
-
 </body>
+
 </html>
